@@ -41,3 +41,7 @@ Published by MIT Press Dec 5th 2023.
 
 ## 2024-07-21 Update
 合并了百分号的问题，由于涉及到的地方还挺多，因此还是发了个release。
+
+
+## 2024-08-15 Update
+兼容texStudio编译，发布首个PDF.
