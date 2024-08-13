@@ -308,7 +308,7 @@ Pr(y|x, \{x_i, y_i\}) = \int Pr(y|x, \phi)Pr(\phi | \{x_i, y_i\})d\phi.
 \frac{\partial \phi}{\partial t} = g[\phi]. 
 \end{equation}
 
-对于典型步长\(\alpha\)，离散与连续的梯度下降会收敛至不同解。我们可以利用 *后向误差分析* 对连续版本进行修正，找到修正项 \(g_1[\phi]\)：
+对于典型步长\(\alpha\)，离散与连续的梯度下降会收敛至不同解。我们可以利用 \textbf{后向误差分析} 对连续版本进行修正，找到修正项 \(g_1[\phi]\)：
 
 \begin{equation}
 \frac{\partial \phi}{\partial t} \approx g[\phi] + \alpha g_1[\phi] + \ldots, 
